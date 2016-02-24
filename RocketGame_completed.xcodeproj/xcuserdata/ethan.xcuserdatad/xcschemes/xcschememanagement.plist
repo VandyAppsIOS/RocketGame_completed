@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>RocketGame_completed.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>AA31E1C91C7D29240060F519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA31E1E11C7D29240060F519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA31E1EC1C7D29240060F519</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

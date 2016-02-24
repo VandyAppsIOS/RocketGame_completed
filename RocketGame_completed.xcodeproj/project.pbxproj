@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA31E1CE1C7D29240060F519 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E1CD1C7D29240060F519 /* AppDelegate.swift */; };
+		AA31E1D01C7D29240060F519 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = AA31E1CF1C7D29240060F519 /* GameScene.sks */; };
+		AA31E1D21C7D29240060F519 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E1D11C7D29240060F519 /* GameScene.swift */; };
+		AA31E1D41C7D29240060F519 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E1D31C7D29240060F519 /* GameViewController.swift */; };
+		AA31E1D71C7D29240060F519 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA31E1D51C7D29240060F519 /* Main.storyboard */; };
+		AA31E1D91C7D29240060F519 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA31E1D81C7D29240060F519 /* Assets.xcassets */; };
+		AA31E1DC1C7D29240060F519 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA31E1DA1C7D29240060F519 /* LaunchScreen.storyboard */; };
+		AA31E1E71C7D29240060F519 /* RocketGame_completedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E1E61C7D29240060F519 /* RocketGame_completedTests.swift */; };
+		AA31E1F21C7D29240060F519 /* RocketGame_completedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E1F11C7D29240060F519 /* RocketGame_completedUITests.swift */; };
+		AA31E2001C7D29680060F519 /* Sprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E1FF1C7D29680060F519 /* Sprite.swift */; };
+		AA31E2021C7D29A80060F519 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E2011C7D29A80060F519 /* Rocket.swift */; };
+		AA31E2041C7D29D50060F519 /* UFO.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA31E2031C7D29D50060F519 /* UFO.swift */; };
+		AA31E2061C7D2BDB0060F519 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = AA31E2051C7D2BDB0060F519 /* sprites.atlas */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA31E1E31C7D29240060F519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA31E1C21C7D29240060F519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA31E1C91C7D29240060F519;
+			remoteInfo = RocketGame_completed;
+		};
+		AA31E1EE1C7D29240060F519 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA31E1C21C7D29240060F519 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA31E1C91C7D29240060F519;
+			remoteInfo = RocketGame_completed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA31E1CA1C7D29240060F519 /* RocketGame_completed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketGame_completed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA31E1CD1C7D29240060F519 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA31E1CF1C7D29240060F519 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		AA31E1D11C7D29240060F519 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		AA31E1D31C7D29240060F519 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		AA31E1D61C7D29240060F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA31E1D81C7D29240060F519 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA31E1DB1C7D29240060F519 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA31E1DD1C7D29240060F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA31E1E21C7D29240060F519 /* RocketGame_completedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketGame_completedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA31E1E61C7D29240060F519 /* RocketGame_completedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketGame_completedTests.swift; sourceTree = "<group>"; };
+		AA31E1E81C7D29240060F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA31E1ED1C7D29240060F519 /* RocketGame_completedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketGame_completedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA31E1F11C7D29240060F519 /* RocketGame_completedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketGame_completedUITests.swift; sourceTree = "<group>"; };
+		AA31E1F31C7D29240060F519 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA31E1FF1C7D29680060F519 /* Sprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sprite.swift; sourceTree = "<group>"; };
+		AA31E2011C7D29A80060F519 /* Rocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		AA31E2031C7D29D50060F519 /* UFO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UFO.swift; sourceTree = "<group>"; };
+		AA31E2051C7D2BDB0060F519 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA31E1C71C7D29240060F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA31E1DF1C7D29240060F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA31E1EA1C7D29240060F519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA31E1C11C7D29240060F519 = {
+			isa = PBXGroup;
+			children = (
+				AA31E1CC1C7D29240060F519 /* RocketGame_completed */,
+				AA31E1E51C7D29240060F519 /* RocketGame_completedTests */,
+				AA31E1F01C7D29240060F519 /* RocketGame_completedUITests */,
+				AA31E1CB1C7D29240060F519 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA31E1CB1C7D29240060F519 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA31E1CA1C7D29240060F519 /* RocketGame_completed.app */,
+				AA31E1E21C7D29240060F519 /* RocketGame_completedTests.xctest */,
+				AA31E1ED1C7D29240060F519 /* RocketGame_completedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA31E1CC1C7D29240060F519 /* RocketGame_completed */ = {
+			isa = PBXGroup;
+			children = (
+				AA31E1CD1C7D29240060F519 /* AppDelegate.swift */,
+				AA31E1CF1C7D29240060F519 /* GameScene.sks */,
+				AA31E1D11C7D29240060F519 /* GameScene.swift */,
+				AA31E1FF1C7D29680060F519 /* Sprite.swift */,
+				AA31E1D31C7D29240060F519 /* GameViewController.swift */,
+				AA31E2011C7D29A80060F519 /* Rocket.swift */,
+				AA31E2031C7D29D50060F519 /* UFO.swift */,
+				AA31E2051C7D2BDB0060F519 /* sprites.atlas */,
+				AA31E1D51C7D29240060F519 /* Main.storyboard */,
+				AA31E1D81C7D29240060F519 /* Assets.xcassets */,
+				AA31E1DA1C7D29240060F519 /* LaunchScreen.storyboard */,
+				AA31E1DD1C7D29240060F519 /* Info.plist */,
+			);
+			path = RocketGame_completed;
+			sourceTree = "<group>";
+		};
+		AA31E1E51C7D29240060F519 /* RocketGame_completedTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA31E1E61C7D29240060F519 /* RocketGame_completedTests.swift */,
+				AA31E1E81C7D29240060F519 /* Info.plist */,
+			);
+			path = RocketGame_completedTests;
+			sourceTree = "<group>";
+		};
+		AA31E1F01C7D29240060F519 /* RocketGame_completedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA31E1F11C7D29240060F519 /* RocketGame_completedUITests.swift */,
+				AA31E1F31C7D29240060F519 /* Info.plist */,
+			);
+			path = RocketGame_completedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA31E1C91C7D29240060F519 /* RocketGame_completed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA31E1F61C7D29240060F519 /* Build configuration list for PBXNativeTarget "RocketGame_completed" */;
+			buildPhases = (
+				AA31E1C61C7D29240060F519 /* Sources */,
+				AA31E1C71C7D29240060F519 /* Frameworks */,
+				AA31E1C81C7D29240060F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketGame_completed;
+			productName = RocketGame_completed;
+			productReference = AA31E1CA1C7D29240060F519 /* RocketGame_completed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA31E1E11C7D29240060F519 /* RocketGame_completedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA31E1F91C7D29240060F519 /* Build configuration list for PBXNativeTarget "RocketGame_completedTests" */;
+			buildPhases = (
+				AA31E1DE1C7D29240060F519 /* Sources */,
+				AA31E1DF1C7D29240060F519 /* Frameworks */,
+				AA31E1E01C7D29240060F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA31E1E41C7D29240060F519 /* PBXTargetDependency */,
+			);
+			name = RocketGame_completedTests;
+			productName = RocketGame_completedTests;
+			productReference = AA31E1E21C7D29240060F519 /* RocketGame_completedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA31E1EC1C7D29240060F519 /* RocketGame_completedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA31E1FC1C7D29240060F519 /* Build configuration list for PBXNativeTarget "RocketGame_completedUITests" */;
+			buildPhases = (
+				AA31E1E91C7D29240060F519 /* Sources */,
+				AA31E1EA1C7D29240060F519 /* Frameworks */,
+				AA31E1EB1C7D29240060F519 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA31E1EF1C7D29240060F519 /* PBXTargetDependency */,
+			);
+			name = RocketGame_completedUITests;
+			productName = RocketGame_completedUITests;
+			productReference = AA31E1ED1C7D29240060F519 /* RocketGame_completedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA31E1C21C7D29240060F519 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = VandyApps;
+				TargetAttributes = {
+					AA31E1C91C7D29240060F519 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AA31E1E11C7D29240060F519 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AA31E1C91C7D29240060F519;
+					};
+					AA31E1EC1C7D29240060F519 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AA31E1C91C7D29240060F519;
+					};
+				};
+			};
+			buildConfigurationList = AA31E1C51C7D29240060F519 /* Build configuration list for PBXProject "RocketGame_completed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA31E1C11C7D29240060F519;
+			productRefGroup = AA31E1CB1C7D29240060F519 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA31E1C91C7D29240060F519 /* RocketGame_completed */,
+				AA31E1E11C7D29240060F519 /* RocketGame_completedTests */,
+				AA31E1EC1C7D29240060F519 /* RocketGame_completedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA31E1C81C7D29240060F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA31E2061C7D2BDB0060F519 /* sprites.atlas in Resources */,
+				AA31E1D01C7D29240060F519 /* GameScene.sks in Resources */,
+				AA31E1DC1C7D29240060F519 /* LaunchScreen.storyboard in Resources */,
+				AA31E1D91C7D29240060F519 /* Assets.xcassets in Resources */,
+				AA31E1D71C7D29240060F519 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA31E1E01C7D29240060F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA31E1EB1C7D29240060F519 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA31E1C61C7D29240060F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA31E1D21C7D29240060F519 /* GameScene.swift in Sources */,
+				AA31E1D41C7D29240060F519 /* GameViewController.swift in Sources */,
+				AA31E2041C7D29D50060F519 /* UFO.swift in Sources */,
+				AA31E2001C7D29680060F519 /* Sprite.swift in Sources */,
+				AA31E2021C7D29A80060F519 /* Rocket.swift in Sources */,
+				AA31E1CE1C7D29240060F519 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA31E1DE1C7D29240060F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA31E1E71C7D29240060F519 /* RocketGame_completedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA31E1E91C7D29240060F519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA31E1F21C7D29240060F519 /* RocketGame_completedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA31E1E41C7D29240060F519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA31E1C91C7D29240060F519 /* RocketGame_completed */;
+			targetProxy = AA31E1E31C7D29240060F519 /* PBXContainerItemProxy */;
+		};
+		AA31E1EF1C7D29240060F519 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA31E1C91C7D29240060F519 /* RocketGame_completed */;
+			targetProxy = AA31E1EE1C7D29240060F519 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA31E1D51C7D29240060F519 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA31E1D61C7D29240060F519 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA31E1DA1C7D29240060F519 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA31E1DB1C7D29240060F519 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA31E1F41C7D29240060F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA31E1F51C7D29240060F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA31E1F71C7D29240060F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RocketGame_completed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyapps.RocketGame-completed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA31E1F81C7D29240060F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RocketGame_completed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyapps.RocketGame-completed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA31E1FA1C7D29240060F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RocketGame_completedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyapps.RocketGame-completedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketGame_completed.app/RocketGame_completed";
+			};
+			name = Debug;
+		};
+		AA31E1FB1C7D29240060F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RocketGame_completedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyapps.RocketGame-completedTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketGame_completed.app/RocketGame_completed";
+			};
+			name = Release;
+		};
+		AA31E1FD1C7D29240060F519 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = RocketGame_completedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyapps.RocketGame-completedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RocketGame_completed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AA31E1FE1C7D29240060F519 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RocketGame_completedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyapps.RocketGame-completedUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RocketGame_completed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA31E1C51C7D29240060F519 /* Build configuration list for PBXProject "RocketGame_completed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA31E1F41C7D29240060F519 /* Debug */,
+				AA31E1F51C7D29240060F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA31E1F61C7D29240060F519 /* Build configuration list for PBXNativeTarget "RocketGame_completed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA31E1F71C7D29240060F519 /* Debug */,
+				AA31E1F81C7D29240060F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA31E1F91C7D29240060F519 /* Build configuration list for PBXNativeTarget "RocketGame_completedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA31E1FA1C7D29240060F519 /* Debug */,
+				AA31E1FB1C7D29240060F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA31E1FC1C7D29240060F519 /* Build configuration list for PBXNativeTarget "RocketGame_completedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA31E1FD1C7D29240060F519 /* Debug */,
+				AA31E1FE1C7D29240060F519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA31E1C21C7D29240060F519 /* Project object */;
+}
